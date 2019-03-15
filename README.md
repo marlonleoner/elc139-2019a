@@ -5,9 +5,10 @@ Carga horária: 60h
 Horários: terças e quintas, das 10:30 às 12:30  
 Sala: 363, CT
 
-<!--
+
 ## Trabalhos
- 1. [TOP500 & me: comparativo de arquiteturas paralelas](trabalhos/t1) (entrega até terça, 13/03, 9h)
+ 1. [TOP500 & me: comparativo de arquiteturas paralelas](trabalhos/t1) (entrega até terça, 19/03, 9h)
+<!--
  2. [Experiências com profilers](trabalhos/t2) (entrega até quarta, 21/03, 23h59)
  3. [Programação paralela multithread](trabalhos/t3) (entrega até segunda, 09/04, 23h59)
  4. [Scheduling com OpenMP](trabalhos/t4) (entrega até quarta, 18/04, 23h59)
