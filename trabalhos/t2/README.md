@@ -23,14 +23,14 @@ Para isso, consulte a documentação do cliente Git que você estiver usando. Se
 No seu repositório da disciplina, na pasta `trabalhos/t2`, você deverá entregar:
 
 1. Um documento `Entrega.md`, contendo:
- - Identificação: seu nome e nome da disciplina;
- - Duas seções separadas contendo respostas para questões sobre Pthreads e OpenMP, incluindo gráficos, links para programas, screenshots, tabelas, etc.
- - Referências.
+   - Identificação: seu nome e nome da disciplina;
+   - Duas seções separadas contendo respostas para questões sobre Pthreads e OpenMP, incluindo gráficos, links para programas, screenshots, tabelas, etc.
+   - Referências.
  
 2. Todos os arquivos citados no documento Entrega.md, incluindo:
 
- - Um arquivo `specs.txt`, com especificações da plataforma utilizada (processador, memória, SO).
- - Um arquivo `results.csv`, preenchido com dados de execuções dos programas, conforme o roteiro abaixo. Há um modelo para esse arquivo [aqui](results.csv). Você pode facilmente converter esse arquivo para Markdown usando scripts ou serviços como esse [aqui](https://donatstudios.com/CsvToMarkdownTable).
+   - Um arquivo `specs.txt`, com especificações da plataforma utilizada (processador, memória, SO).
+   - Um arquivo `results.csv`, preenchido com dados de execuções dos programas, conforme o roteiro abaixo. Há um modelo para esse arquivo [aqui](results.csv). Você pode facilmente converter esse arquivo para Markdown usando scripts ou serviços como esse [aqui](https://donatstudios.com/CsvToMarkdownTable).
 
 
 ## Parte I: Pthreads
