@@ -1,9 +1,6 @@
 # Programação Paralela - ELC139-2019a
 Primeiro semestre de 2019  
-Professora: [Andrea Schwertner Charão](http://www.inf.ufsm.br/~andrea)  
-Carga horária: 60h  
-Horários: terças e quintas, das 10:30 às 12:30  
-Sala: 363, CT
+Aluno: [Marlon Leoner da Silva Rodrigues](https://www.facebook.com/marlon.leoner)  
 
 
 ## Trabalhos
@@ -29,10 +26,3 @@ Sala: 363, CT
  - [Ray-tracer paralelo com MPI] (trabalhos/t6) (entregas parciais até as aulas dos dias 31/05 e 02/06; entrega final até dia 06/06, 23:59)
 -->
 
-
-## Sobre a disciplina
- - [Ementa](https://drive.google.com/file/d/0B8XtQdF_Gdk2RHZZR0NMaU4xSGc/view)
- - Avaliação: 
-   - Instrumentos de avaliação: trabalhos realizados e apresentados/discutidos em aula
-   - Peso de cada trabalho proporcional ao tempo para realizá-lo
-   - Participação na aula subsequente a cada entrega faz parte da avaliação
