@@ -106,6 +106,7 @@ Utilizando o conjunto de dados abaixo, foi obtido o valor de, aproximadamente, .
 - 1000 repetições
 
   - Tempo de execução
+  
     | Tam. Vetor | 1Thread(s) | 2Thread(s) | 4Thread(s) |
     |:---:|:---:|:---:|:---:|
     | 100000     | 576603     | 300393     | 242927     |
@@ -114,6 +115,7 @@ Utilizando o conjunto de dados abaixo, foi obtido o valor de, aproximadamente, .
     | 2000000    | 12041939   | 6164604    | 4981710    |
 
   - Speedup
+  
     | Tam. Vetor | 2Thread(s) | 4Thread(s) |
     | :--------: | :--------: | :--------: |
     | 100000 | 1,919 | 2,373 |
