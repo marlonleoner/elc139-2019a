@@ -107,7 +107,7 @@ Utilizando o conjunto de dados abaixo, foi obtido o valor de, aproximadamente, .
 
   - Tempo de execução
     | Tam. Vetor | 1Thread(s) | 2Thread(s) | 4Thread(s) |
-    |:----------:|:----------:|:----------:|:----------:|
+    |:---:|:---:|:---:|:---:|
     | 100000     | 576603     | 300393     | 242927     |
     | 500000     | 3013340    | 1499717    | 1239554    |
     | 1000000    | 6007634    | 3065655    | 2485807    |
