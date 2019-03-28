@@ -2,16 +2,15 @@
 
 FILE="pthreads_dotprod"
 
-
 MAX_THREADS=3 # (t * 2)      => define qtdade de threads, max 4 threads
 MAX_WSIZE=10  # (r * 100000) => max 1000000 repeticoes
 MAX_REP=3     # (s * 1000)   => max 3000 repeticoes
 
 SUM=0
 
-RunTests () {
+RunTests $1 # $1 = <worksize>
 
-    for (( r = 1; r <= $MAX_REP; r++ )) 
+for (( r = 1; r <= $MAX_REP; r++ )) 
     do
         REPET=$((r*1000))
         for (( t = 0; t < $MAX_THREADS; t++ )) 
@@ -29,6 +28,3 @@ RunTests () {
     done
     
     ( (echo -e "<$TAM_VET> <$1>") && (./$FILE $TAM_VET $1) ) >> out.txt 
-}
-
-RunTests $1 # $1 = <worksize>
