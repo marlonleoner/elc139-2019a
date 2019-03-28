@@ -11,20 +11,20 @@ SUM=0
 RunTests $1 # $1 = <worksize>
 
 for (( r = 1; r <= $MAX_REP; r++ )) 
+do
+    REPET=$((r*1000))
+    for (( t = 0; t < $MAX_THREADS; t++ )) 
     do
-        REPET=$((r*1000))
-        for (( t = 0; t < $MAX_THREADS; t++ )) 
+        THREAD=$((2**t))
+        WORKSIZE=$(($1/THREAD))
+        SUM=$((0))
+        for (( re = 1; re <= 5; re++ )) 
         do
-            THREAD=$((2**t))
-            WORKSIZE=$(($1/THREAD))
-            SUM=$((0))
-            for (( re = 1; re <= 5; re++ )) 
-            do
-                res=`./$FILE $THREAD $WORKSIZE $REPET`
-                SUM=$((SUM+res))
-            done
-            ( (echo -e "<$THREAD> <$WORKSIZE> <$REPET>")  && (echo -e $((SUM/5))) ) >> results.txt
+            res=`./$FILE $THREAD $WORKSIZE $REPET`
+            SUM=$((SUM+res))
         done
+        ( (echo -e "<$THREAD> <$WORKSIZE> <$REPET>")  && (echo -e $((SUM/5))) ) >> results.txt
     done
-    
-    ( (echo -e "<$TAM_VET> <$1>") && (./$FILE $TAM_VET $1) ) >> out.txt 
+done
+
+( (echo -e "<$TAM_VET> <$1>") && (./$FILE $TAM_VET $1) ) >> out.txt 
