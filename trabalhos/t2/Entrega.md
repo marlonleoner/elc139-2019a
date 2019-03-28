@@ -126,6 +126,7 @@ Utilizando o conjunto de dados abaixo, foi obtido o valor de, aproximadamente, .
 - 2000 repetições
 
   - Tempo de execução (usec)
+  
     | Tam. Vetor | 1Thread(s) | 2Thread(s) | 4Thread(s) |
     |:----------:|:----------:|:----------:|:----------:|
     | 100000 | 1147293 | 596216 | 476966 |
@@ -134,6 +135,7 @@ Utilizando o conjunto de dados abaixo, foi obtido o valor de, aproximadamente, .
     | 2000000 | 24084261 | 12425251 | 10170673 |
 
   - Speedup
+  
     | Tam. Vetor | 2Thread(s) | 4Thread(s) |
     |:----------:|:----------:|:----------:|
     | 100000 | 1,924 | 2,405 |
@@ -144,6 +146,7 @@ Utilizando o conjunto de dados abaixo, foi obtido o valor de, aproximadamente, .
 - 3000 repetições
 
   - Tempo de execução (usec)
+  
     | Tam. Vetor | 1Thread(s) | 2Thread(s) | 4Thread(s) |
     |:----------:|:----------:|:----------:|:----------:|
     | 100000 | 1709646 | 947634 | 858673 |
@@ -152,6 +155,7 @@ Utilizando o conjunto de dados abaixo, foi obtido o valor de, aproximadamente, .
     | 2000000 | 41935065 | 18196366 | 14693602 |
 
   - Speedup
+  
     | Tam. Vetor | 2Thread(s) | 4Thread(s) |
     |:----------:|:----------:|:----------:|
     | 100000 | 1,804 | 1,991 |
@@ -172,6 +176,7 @@ Utilizando o conjunto de dados abaixo, foi obtido o valor de, aproximadamente, .
 2. Avalie o desempenho do programa em OpenMP, usando os mesmos dados/argumentos do programa com threads POSIX.
 
 - Speedup - 1000 repetições
+
   | Tam. Vetor | 2Thread(s) | 4Thread(s) |
   |:----------:|:----------:|:----------:|
   | 100000 | 2.106 | 2.351 |
@@ -180,6 +185,7 @@ Utilizando o conjunto de dados abaixo, foi obtido o valor de, aproximadamente, .
   | 2000000 | 1.935 | 2.334 |
 
 - Speedup - 2000 repetições
+
   | Tam. Vetor | 2Thread(s) | 4Thread(s) |
   |:----------:|:----------:|:----------:|
   | 100000 | 1.875 | 2.309 |
@@ -188,6 +194,7 @@ Utilizando o conjunto de dados abaixo, foi obtido o valor de, aproximadamente, .
   | 2000000 | 1.938 | 2.368 |
 
 - Speedup - 3000 repetições
+
   | Tam. Vetor | 2Thread(s) | 4Thread(s) |
   |:----------:|:----------:|:----------:|
   | 100000 | 1.929 | 2.283 |
