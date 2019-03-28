@@ -8,8 +8,6 @@ MAX_REP=3     # (s * 1000)   => max 3000 repeticoes
 
 SUM=0
 
-RunTests $1 # $1 = <worksize>
-
 for (( r = 1; r <= $MAX_REP; r++ )) 
 do
     REPET=$((r*1000))
