@@ -1,0 +1,8 @@
+<> <100000>
+Uso: ./codeOMP <nthreads> <worksize> <repetitions>
+<> <500000>
+Uso: ./codeOMP <nthreads> <worksize> <repetitions>
+<> <1000000>
+Uso: ./codeOMP <nthreads> <worksize> <repetitions>
+<> <2000000>
+Uso: ./codeOMP <nthreads> <worksize> <repetitions>
