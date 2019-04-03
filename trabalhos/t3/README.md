@@ -18,7 +18,6 @@
    ```
    g++ -std=c++11 ThreadDemoABC.cpp -pthread -o ThreadDemoABC
    ./ThreadDemoABC
-   
    ```
 
 
