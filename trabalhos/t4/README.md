@@ -8,7 +8,7 @@
 
 Neste trabalho, você vai paralelizar um programa que gera uma sequência de imagens representando um "zoom" em um [fractal de Mandelbrot](https://en.wikipedia.org/wiki/Mandelbrot_set). A imagem ao lado foi gerada com esse programa.
 
-<img src="fractal1000.png" height="160px" align="right">
+<img src="fractal.gif" height="160px" align="right">
 
 
 ## Preparação
