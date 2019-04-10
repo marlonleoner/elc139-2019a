@@ -6,7 +6,7 @@
 ## Introdução
 
 
-Neste trabalho, você vai paralelizar um programa que gera uma sequência de imagens representando um "zoom" em um [fractal de Mandelbrot](https://en.wikipedia.org/wiki/Mandelbrot_set). 
+Neste trabalho, você vai paralelizar um programa que gera uma sequência de imagens representando um "zoom" em um [fractal de Mandelbrot](https://en.wikipedia.org/wiki/Mandelbrot_set). A imagem ao lado foi gerada com esse programa.
 
 <img src="fractal1000.png" height="160px" align="right">
 
@@ -16,22 +16,22 @@ Neste trabalho, você vai paralelizar um programa que gera uma sequência de ima
 1. Baixe o arquivo [fractal.zip](fractal.zip), que contém o programa sequencial de referência para este trabalho. Este programa foi desenvolvido pelo professor Martin Burtscher, da Texas State University (EUA).
 
 2. Compile o programa:
-```
-g++ fractal.cpp -o fractal
-```
+   ```
+   g++ fractal.cpp -o fractal
+   ```
 
 3. Execute o programa para imagens de diferentes tamanhos e diferentes quantidades de frames:
-```
-./fractal 512 32
-./fractal 512 64
-./fractal 1024 32
-./fractal 1024 64
-```
+   ```
+   ./fractal 512 32
+   ./fractal 512 64
+   ./fractal 1024 32
+   ./fractal 1024 64
+   ```
 
-4. O programa só grava imagens em arquivo para imagens pequenas (<= 256) e poucos frames (<= 100). É recomendável gerar algumas imagens quando estiver testando seu programa paralelo, para verificar se estão sendo geradas corretamente. Caso você deseje gerar uma animação, pode-se usar por exemplo o seguinte comando:
-```
-convert -delay 1x10 fractal1*.bmp fractal.gif
-```
+4. O programa só grava imagens em arquivo para imagens pequenas (<= 256) e poucos frames (<= 100). É recomendável gerar algumas imagens quando estiver testando seu programa paralelo, para verificar se estão sendo geradas corretamente. Caso você deseje gerar uma animação, pode-se usar por exemplo o seguinte comando do [ImageMagick](http://www.imagemagick.org):
+   ```
+   convert -delay 1x10 fractal1*.bmp fractal.gif
+   ```
 
 
 
