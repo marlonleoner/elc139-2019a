@@ -15,6 +15,12 @@ Caso o acesso não funcione, avise a professora e faça a atividade junto com um
 ## Parte 1: Execução de job
 
 1. Copie o arquivo pthreads_dotprod.tar.gz para o cluster CDER. Descompacte o arquivo e compile o programa.
+   ```
+   wget https://github.com/AndreaInfUFSM/elc139-2019a/raw/master/trabalhos/cder/pthreads_dotprod.tar.gz
+   tar xzvf pthreads_dotprod.tar.gz
+   cd pthreads_dotprod
+   make
+   ```
 
 2. O cluster da GSU usa um gerenciador chamado SLURM. Você usará comandos do SLURM para lançar e  acompanhar suas execuções. Para submeter um script para execução, use o comando `sbatch`:
    ``` 
