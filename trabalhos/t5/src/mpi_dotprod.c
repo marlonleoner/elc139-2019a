@@ -91,13 +91,20 @@ int main(int argc, char **argv) {
 
    // Define valores
    dotdata.c      = 0.0;
-   dotdata.wsize  = wsize;
+   dotdata.wsize  = wsize / tasks;
    dotdata.repeat = repeat;
 
+   // Trabalho extra vai para o processo 0
+   if(process == 0)
+      dotdata.wsize += (wsize % tasks);
+
    // Calculo do produto escalar
-   start = MPI_Wtime();
+   start = wtime();
    dotprod_worker();
-   end   = MPI_Wtime();
+   end   = wtime();
+
+   // Exibe informações do processo
+   printf("P%d -> Result: %.2f - Size: %d\n", process, dotdata.c, dotdata.wsize);
 
    // Processos com id diferente de 0 enviam mensagens
    if (process != 0) {
@@ -106,15 +113,13 @@ int main(int argc, char **argv) {
    }
    // Processo 0 recebe a mensagem dos outros processos
    else {
-      printf("P%d: %.2f\n", process, dotdata.c);
       for(source = 1; source < tasks; source++) {
          MPI_Recv(&result, 1, MPI_DOUBLE, source, 0, MPI_COMM_WORLD, &status);
          dotdata.c += result;
-         printf("P%d: %.2f\n", source, result);
       }
 
       // Mostra resultado e estatisticas da execucao
-      printf("%.2lf\n%d thread(s), %.2fmsec\n", dotdata.c, tasks, (end-start)*1000);
+      printf("%.2lf\n%d thread(s), %.0fusec\n", dotdata.c, tasks, (end-start));
       fflush(stdout);
    }   
 
