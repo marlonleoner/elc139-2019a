@@ -14,7 +14,27 @@ Nome: Marlon Leoner da Silva Rodrigues<br/>Disciplina: [Programação Paralela](
 ## Parte 1
 
 + Implemente uma versão em MPI do programa do trabalho t2. [Código](src/mpi_dotprod.c)
-+ Avalie o desempenho do programa conforme as instruções do trabalho t2.
++ Avalie o desempenho do programa conforme as instruções do trabalho t2. Todos os testes foram realizados com a variável 'repetição' setado em 1000, variando o valor do tamanho do vetor e a quantidade de processos. Nas tabelas abaixo temos os tempos de execução e o speedup das execuções.
+
+	+ Tempo de execução
+	
+    | Tam. Vetor | 1Processo(s) | 2Processo(s) | 4Processo(s) | 8Processo(s) |
+    |:----------:|:------------:|:------------:|:------------:|:------------:|
+    | 100000     |   570545     |   313246     |   222777     |   214309     |
+    | 500000     |   2975681    |   1489083    |   1172833    |   1141165    |
+    | 1000000    |   5966520    |   3014160    |   2361977    |   2283987    |
+    | 2000000    |   11928061   |   6069409    |   4685436    |   4689777    |
+
+    + Speedup
+
+    | Tam. Vetor | 2Processo(s) | 4Processo(s) | 8Processo(s) |
+    |:----------:|:------------:|:------------:|:------------:|
+    | 100000     |   1,82       |   2,56       |   2,66       |
+    | 500000     |   1,99       |   2,53       |   2,60       |
+    | 1000000    |   1,97       |   2,52       |   2,61       |
+    | 2000000    |   1,96       |   2,54       |   2,54       |
+
+    Pode-se perceber que há uma melhora do tempo de execução do programa com 2 processos em relação ao programa sequêncial, houve um ganho na execução com 4 processos em relação ao programa com 2 processos, porém não há um grande ganho quando excedemos o número threads da máquina.
 
 ## Parte 2
 
