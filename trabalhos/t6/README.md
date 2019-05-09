@@ -11,7 +11,7 @@ No código fornecido, são feitas várias chamadas de send/recv que podem ser tr
 
 ## Parte 2
 
-Leia o artigo [Send-receive considered harmful: Myths and realities of message passing](https://dl.acm.org/citation.cfm?id=963780) e escreva um resumo crítico relacionando os argumentos do autor com sua própria experiência de programação com MPI.
+Leia o artigo [Send-receive considered harmful: Myths and realities of message passing](https://dl.acm.org/citation.cfm?id=963780) e escreva um resumo crítico relacionando os argumentos do autor com sua própria experiência de programação com MPI. Obs: artigo acessível pela rede da UFSM (caso esteja em outra rede, use proxy ou siga instruções [aqui](http://coral.ufsm.br/informatica/index.php/home/noticias/65-tutorial-para-acesso-ao-portal-de-periodicos-da-capes-ufsm)).
 
 ## Entrega
 
