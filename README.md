@@ -6,6 +6,11 @@ Aluno: [Marlon Leoner da Silva Rodrigues](https://www.facebook.com/marlon.leoner
 ## Trabalhos
  1. [TOP500 & me: comparativo de arquiteturas paralelas](trabalhos/t1) (entrega até terça, 19/03, 9h)
  2. [Programação paralela multithread](trabalhos/t2) (entrega até quarta, 27/03, 23h59)
+ 3. [Scheduling com OpenMP](trabalhos/t3) (entrega até segunda, 08/04, 23h59)
+ 4. [Geração de Fractais de Mandelbrot em OpenMP](trabalhos/t4) (entrega até segunda, 22/04, 23h59)
+ 5. [Primeiros passos com MPI](trabalhos/t5) (entrega até segunda, 06/05, 23h59)
+ 6. [Comunicação coletiva em MPI](trabalhos/t6) (entrega até quarta, 15/05, 23h59)
+ 7. [Avaliação de desempenho de programas MPI](trabalhos/t7) (entrega até quarta, 29/05, 23h59)
 <!--
  2. [Experiências com profilers](trabalhos/t2) (entrega até quarta, 21/03, 23h59)
  3. [Programação paralela multithread](trabalhos/t3) (entrega até segunda, 09/04, 23h59)
