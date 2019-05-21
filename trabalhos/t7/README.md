@@ -104,7 +104,7 @@ No seu repositório da disciplina, na pasta `trabalhos/t7`, crie um documento `E
 
 ## Apresentação
 
-As respostas do trabalho serão apresentadas e discutidas em aula no dia 28/05.
+As respostas do trabalho serão apresentadas e discutidas em aula no dia 30/05.
 
 
 ## Material de apoio
