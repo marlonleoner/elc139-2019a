@@ -6,8 +6,8 @@ Nome: Marlon Leoner da Silva Rodrigues<br/>Disciplina: [Programação Paralela](
 
 ## Link dos programas
 
-+ Broadcast com send e receive: [código]()
-+ Broadcast nativo do MPI: [código]()
++ Broadcast com send e receive: [código](src/parte1.c)
++ Broadcast nativo do MPI: [código](src/parte1_native.c)
 
 ## Parte 1
 
