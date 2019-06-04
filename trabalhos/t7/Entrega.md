@@ -46,12 +46,16 @@ Nome: Marlon Leoner da Silva Rodrigues<br/>Disciplina: [Programação Paralela](
 
    #### Descrição
 
-   Para esta parte do trabalho foi necessário variar a largura de banda e a latência. Foi utilizado os seguintes valores para largura: 125Mbps e 375Mbps, e para latência: 10us, 50us e 100us.
+   Para esta parte do trabalho foi necessário variar a largura de banda e a latência. Foi utilizado os seguintes valores para largura: 500bps, 1Mbps e 125Mbps, e para latência: 50us, 200us e 500us.
+
+   + Largura de banda: 500Bps
+
+   <img src="./img/t7_parte2_500bps.png" width="500">
+
+   + Largura de Banda: 1Mbps
+
+   <img src="./img/t7_parte2_1mbps.png" width="500">   
 
    + Largura de banda: 125Mbps
 
-   <img src="./img/t7_parte2_125.png" width="500">
-
-   + Largura de banda: 375Mbps
-
-   <img src="./img/t7_parte2_375.png" width="500">
+   <img src="./img/t7_parte2_125mbps.png" width="500">
