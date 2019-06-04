@@ -58,8 +58,8 @@ Nome: Marlon Leoner da Silva Rodrigues<br/>Disciplina: [Programação Paralela](
 
    + Largura de banda: 125Mbps
 
-   <img src="./img/t7_parte2_125mbps.png" width="500">
+   <img src="./img/t7_parte2_125mbps.png">
 
    + Largura de banda: 375Mbps
 
-   <img src="./img/t7_parte2_375mbps.png" width="500">
+   <img src="./img/t7_parte2_375mbps.png">
