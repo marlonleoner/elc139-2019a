@@ -38,7 +38,7 @@ Nome: Marlon Leoner da Silva Rodrigues<br/>Disciplina: [Programação Paralela](
       | 16         | 1240309       |
       | 32         | 1496382       |
 
-  <img src="./img/parte_1.png" width="500">
+  <img src="./img/parte_1.png">
 
 ## Parte 2
 
